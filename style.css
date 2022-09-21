@@ -8,6 +8,7 @@
 header{
     background-color: orangered;
     position: fixed;
+    z-index: 1;
     width: 100%;
 }
 
@@ -50,10 +51,99 @@ header{
 
 
         /* MAIN */
+/* container main flexato */
+.container-flex{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Proprieta card */
+.card-margine-top{
+    margin-top: 100px;
+}
+
+/* dimensionamento card */
+.card-size{
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+     
+}
+
+/* sfondo principale card */
+.card-1{
+    background-image: url("img/1.jpg");
+    background-size: contain;  
+}
+.card-2{
+    background-image: url("img/2.jpg");
+    background-size: contain;  
+}
+.card-3{
+    background-image: url("img/3.jpg");
+    background-size: contain;  
+}
+.card-4{
+    background-image: url("img/4.jpg");
+    background-size: contain;  
+}
+.card-5{
+    background-image: url("img/5.jpg");
+    background-size: contain;  
+}
+.card-6{
+    background-image: url("img/6.jpg");
+    background-size: contain;  
+}
+
+/* css per cambio immagne col maouse */
+.card-1b:hover{
+    background-image: url("img/1b.jpg");
+}
+.card-2b:hover{
+    background-image: url("img/2b.jpg");
+}
+.card-3b:hover{
+    background-image: url("img/3b.jpg");
+}
+.card-4b:hover{
+    background-image: url("img/4b.jpg");
+}
+.card-5b:hover{
+    background-image: url("img/5b.jpg");
+}
+.card-6b:hover{
+    background-image: url("img/6b.jpg");
+}
 
 
-
-
+/* Proprieta Marca Nome articolo e prezzo sconytato */
+.marca{
+    color: gray;
+}
+.articolo{
+    font-weight: bold;
+    font-size: large;
+}
+.prezzo-scontato{
+    display: inline-block;
+    font-weight: bold;
+    color: red;
+    font-size: large;
+}
+.prezzo-scontato::after{
+    content: "\20AC";
+}
+.prezzo-intero{
+    color: gray;
+    text-decoration: line-through;
+}
+.prezzo-intero::after{
+    content: "\20AC";
+}
 
 
 
@@ -61,6 +151,7 @@ header{
          /* FOOTER */
 footer{
     background-color: rgb(5, 5, 69);
+    margin-top: 15px ;
 }
 #info-footer{
     color: white;
