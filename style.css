@@ -45,3 +45,46 @@ header{
 #utente i:hover{
     color: red;
 }
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    background-color: rgb(5, 5, 69);
+}
+#info-footer{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+/* Info legali e privacy */
+#privacy a{
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+}
+#privacy a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/* Social */
+.social a{
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+.social a:hover{
+    color: red;
+}
