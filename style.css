@@ -9,7 +9,39 @@ header{
     background-color: orangered;
 }
 
+/* Risidmensionamento e Posizionamento Header */
 #menu{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+/* Categorie di vestiti */
+#categorie>a{
+    margin: 5px;
+    color: white;
+    font-size: larger;
+    text-decoration: none;   
+}
+#categorie>a:hover{
+    text-decoration: underline;
+}
+
+/* Logo */
+#logo{
+    height: 70px;
+}
+#logo>img{
+    height: 100%;
+}
+
+/* Interezione utente(registrazione, preferiti, carello) */
+#utente i{
+    color: white;
+    margin: 5px;
+}
+#utente i:hover{
+    color: red;
 }
