@@ -69,54 +69,73 @@ header{
 .card-size{
     height: 500px;
     width: 400px;
-    border: 2px solid black;
+    position: relative;
+    
      
 }
 
 /* sfondo principale card */
 .card-1{
     background-image: url("img/1.jpg");
-    background-size: contain;  
+    background-size: contain;
+    background-repeat: no-repeat;  
 }
 .card-2{
     background-image: url("img/2.jpg");
-    background-size: contain;  
+    background-size: contain;
+    background-repeat: no-repeat;  
 }
 .card-3{
     background-image: url("img/3.jpg");
-    background-size: contain;  
+    background-size: contain;
+    background-repeat: no-repeat;  
 }
 .card-4{
     background-image: url("img/4.jpg");
-    background-size: contain;  
+    background-size: contain;
+    background-repeat: no-repeat;  
 }
 .card-5{
     background-image: url("img/5.jpg");
-    background-size: contain;  
+    background-size: contain;
+    background-repeat: no-repeat;  
 }
 .card-6{
     background-image: url("img/6.jpg");
-    background-size: contain;  
+    background-size: contain;
+    background-repeat: no-repeat;  
 }
 
 /* css per cambio immagne col maouse */
 .card-1b:hover{
     background-image: url("img/1b.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .card-2b:hover{
     background-image: url("img/2b.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .card-3b:hover{
     background-image: url("img/3b.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .card-4b:hover{
     background-image: url("img/4b.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .card-5b:hover{
     background-image: url("img/5b.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .card-6b:hover{
     background-image: url("img/6b.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
@@ -146,7 +165,41 @@ header{
 }
 
 
+/* Proprietà cuore e scondit interni alle foto*/
+/* Proprieta cuore */
+.card-size i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+}
+.card-size i:hover{
+    color: red;
+}
 
+/* Proprieta sconto */
+.discount-inside-immage{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 40px;
+    padding: 4px;
+}
+
+.sostenibilita{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 90px;
+    position: absolute;
+    bottom: 40px; 
+    left: 40px;
+    padding: 4px;
+    
+    
+}
 
          /* FOOTER */
 footer{
