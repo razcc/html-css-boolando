@@ -52,23 +52,27 @@ header{
 
         /* MAIN */
 /* container main flexato */
+main{
+    
+}
 .container-flex{
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 /* Proprieta card */
 .card-margine-top{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 /* dimensionamento card */
 .card-size{
-    height: 500px;
-    width: 400px;
+    height: 800px;
+    width: 600px;
     position: relative;
     
      
@@ -77,32 +81,32 @@ header{
 /* sfondo principale card */
 .card-1{
     background-image: url("img/1.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;  
 }
 .card-2{
     background-image: url("img/2.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;  
 }
 .card-3{
     background-image: url("img/3.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;  
 }
 .card-4{
     background-image: url("img/4.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;  
 }
 .card-5{
     background-image: url("img/5.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;  
 }
 .card-6{
     background-image: url("img/6.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;  
 }
 
@@ -110,32 +114,32 @@ header{
 .card-1b:hover{
     background-image: url("img/1b.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .card-2b:hover{
     background-image: url("img/2b.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .card-3b:hover{
     background-image: url("img/3b.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .card-4b:hover{
     background-image: url("img/4b.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .card-5b:hover{
     background-image: url("img/5b.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .card-6b:hover{
     background-image: url("img/6b.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 
@@ -178,13 +182,16 @@ header{
 }
 
 /* Proprieta sconto */
+.sconto-container{
+    position: absolute;
+    bottom: 20px;
+
+}
 .discount-inside-immage{
     background-color: red;
     color: white;
     height: 30px;
     width: 30px;
-    position: absolute;
-    bottom: 40px;
     padding: 4px;
 }
 
@@ -193,12 +200,8 @@ header{
     color: white;
     height: 30px;
     width: 90px;
-    position: absolute;
-    bottom: 40px; 
-    left: 40px;
     padding: 4px;
-    
-    
+    margin-left: 8px;   
 }
 
          /* FOOTER */
