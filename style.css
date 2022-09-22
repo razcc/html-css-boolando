@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-         /* HEADER */
+                   /* -----HEADER----- */
 header{
     background-color: orangered;
     position: fixed;
     z-index: 1;
     width: 100%;
+    top: 0;
 }
 
 /* Risidmensionamento e Posizionamento Header */
@@ -19,6 +20,7 @@ header{
     align-items: center;
     width: 80%;
     margin: auto;
+    
 }
 
 /* Categorie di vestiti */
@@ -50,7 +52,7 @@ header{
 }
 
 
-        /* MAIN */
+                    /*----- MAIN -----*/
 /* container main flexato */
 main{
     
@@ -61,15 +63,15 @@ main{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 200px;
     
 }
 
 /* Proprieta card */
-.card-margine-top{
-    margin-top: 200px;
-}
-
 /* dimensionamento card */
+.card-margine-top{
+    margin-top: 100px;
+}
 .card-size{
     height: 800px;
     width: 600px;
@@ -204,7 +206,7 @@ main{
     margin-left: 8px;   
 }
 
-         /* FOOTER */
+                 /* -----FOOTER----- */
 footer{
     background-color: rgb(5, 5, 69);
     margin-top: 15px ;
